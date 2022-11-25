@@ -11,9 +11,6 @@ export default defineNuxtConfig({
         '@formkit/nuxt',
         'nuxt-icon'
     ],
-    webpack: {
-        extractCSS: false // fixes css from wrong layouts appearing
-    },
     session: {
         session: {
             expiryInSeconds: 60 * 60 * 24 * 2, // 2 days
